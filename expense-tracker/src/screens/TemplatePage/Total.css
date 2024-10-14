@@ -1,0 +1,55 @@
+.Total{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 60rem;
+    grid-template-rows: 2rem 5rem;
+}
+
+.title{
+    background-color: #164863;
+    width: 60rem;
+    height: 150%;
+    font-size: 1.2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    
+    
+    text-align: center;
+}
+
+.title *{
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    margin-bottom: 0;
+    margin-top: 0.2rem;
+}
+
+.list{
+    display: flex;
+    width: 60rem;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2px;
+}
+
+.list li{
+    list-style: none;
+
+}
+
+
+#cancel-icon{
+    width: 2rem;
+    justify-self: center;
+    align-self: center;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0  1rem;
+}

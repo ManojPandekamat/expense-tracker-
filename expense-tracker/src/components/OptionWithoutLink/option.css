@@ -1,0 +1,30 @@
+.option{
+background-color: rgb(152, 231, 255);
+border-radius: 15px;
+gap: 0.2rem;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: auto;
+width: 12rem;
+transform: none;
+}
+
+
+
+.Subtitle{
+    font-size: 1.2rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+.Amount{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+
+}

@@ -1,0 +1,15 @@
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60rem;
+    background-color:#164863;
+    color: #DDF2FD;
+    padding: 1rem 2rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8rem;
+    /* border-radius:  10px ; */
+    
+}

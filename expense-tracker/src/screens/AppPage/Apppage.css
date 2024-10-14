@@ -1,0 +1,174 @@
+.Add-expense{
+    width: 60rem;
+    height: 3rem;
+    background-color: #427D9D;
+    color: #DDF2FD;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.options{
+    background-color: #9BBEC8;
+}
+
+
+.Add-expense button{
+    width: 12rem;
+    height:2.5rem;
+    background-color: #164863;
+    border: 2px solid white;
+    color: #DDF2FD;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 0.7rem;
+    /* border: 1px solid rgba(0, 0, 0, 0); */
+}
+
+.Add-expense button:hover{
+transform: scale(1.05);
+color: #164863;
+border: 2px solid #164863;
+background-color: #DDF2FD;
+    transition: 0.8s ease-in-out;
+}
+
+#dialog{
+    height: fit-content;
+    width: 35rem;
+    height: fit-content;
+    background-color: #DDF2FD;
+    top: 25%;
+    left: 30%;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid rgba(0, 0, 0, 0.277);
+    border-radius: 0.4rem;
+}
+
+#dialog form{
+    display: flex;
+    color: #164863;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 0.6rem; */
+    gap: 0.4rem;
+    padding: 9px 20px  0 0;
+
+}
+
+
+#dialog input{
+    border-radius: 4px solid rgba(0, 0, 0, 0);
+    height: 2rem;
+    width: 15rem;
+}
+
+#dialog button{
+    background-color: #164863;
+    color: #DDF2FD;
+    height: 2rem;
+    width: 5rem;
+    align-self: flex-end;
+    border: 1px solid rgba(12, 12, 12, 0.552);
+    border-radius: 5px;
+    
+}
+#dialog button:hover{
+    color: #164863;
+    background-color: #DDF2FD;
+    height: 2rem;
+    width: 5rem;
+    align-self: flex-end;
+    border: 1px solid #427D9D;
+    border-radius: 5px;
+    
+}
+
+#list {
+    padding: 1rem 0 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    width: 64rem;
+    height: fit-content; /* Ensure this is set */
+    list-style: none;
+    background-color: #DDF2FD;
+
+}
+
+.dialog-divs{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    justify-content: center;
+}
+.dialog-divs2{
+    display: flex;
+    flex-direction: row;
+    gap: 0.2rem;
+    justify-content: center;
+}
+
+.dialog-divs2 input{
+width: 10rem;
+}
+
+
+#listTitle{
+    margin: 1rem 0 0 0;
+    display: grid;
+    grid-template-columns: 45% 45% 10%;
+    grid-template-rows: 50% 50%;
+    border: 1px solid rgba(0, 0, 0, 0.403);
+    border-radius: 5px;
+    width: 64rem;
+    height: 3rem;
+    background-color: #164863;
+    color: #DDF2FD;
+    list-style: none;
+
+}
+
+#one{
+    font-size: 1.3rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    justify-self: center;
+    padding: 10px;
+    align-self: center;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#two{
+    font-size: 1.3rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    justify-self: center;
+    padding: 10px;
+    align-self: center;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+#three{
+    font-size: 1.3rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    justify-self: center;
+    padding: 10px;
+    align-self: center;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}

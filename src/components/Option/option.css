@@ -1,0 +1,38 @@
+
+.Option{
+background-color: #164863;
+border-radius: 15px;
+gap: 0.2rem;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: auto;
+width: 12rem;
+color:#DDF2FD
+}
+
+.Option:hover{
+    transform: scale(1.05);
+    color: #164863;
+    border: 2px solid #164863;
+    background-color: #DDF2FD;
+    transition: 0.9s ease-in-out;
+}
+
+.Subtitle{
+    font-size: 1.2rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    text-align: center;
+
+}
+
+.Amount{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    /* text-decoration: none; */
+    color: #DDF2FD;
+}
